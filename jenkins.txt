@@ -8,10 +8,10 @@ pipeline {
     }
 }
 stage ('DEPLOY') {
- agent {label 'tower'}
+ agent {label 'flower'}
   steps {
     echo "this is deploy"
-}
+    }
 }
 }
 }

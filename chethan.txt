@@ -15,5 +15,11 @@ pipeline {
 			}
 			}
 			}
+		stage ('DEPLOY') {
+			steps {
+			echo "this is deploy"
 			}
 			}
+			}
+			}
+			

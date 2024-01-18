@@ -9,7 +9,7 @@ pipeline {
 			'''
 			}
 			}
-		stage ('DEPLOY) {
+		stage ('DEPLOY') {
 			steps {
 			sh '''
 			sleep 3

@@ -1,0 +1,18 @@
+pipeline {
+	agent none
+	stages {
+		stage ('BUILD') {
+		agent {label 'flower'}
+			steps {
+			sh "sleep 3"
+			echo "this is build"
+			}
+			}
+	stage ('TEST') {
+		agent any
+			steps {
+			echo "this is test"
+			}
+			}
+			}
+			}
